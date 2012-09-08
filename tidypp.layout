@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="src\attribute.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="917" topLine="4" />
+	</File>
+	<File name="src\buffer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="935" topLine="0" />
+	</File>
+	<File name="src\document.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1105" topLine="0" />
+	</File>
+	<File name="src\inputsource.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="981" topLine="0" />
+	</File>
+	<File name="src\mem.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="935" topLine="0" />
+	</File>
+	<File name="src\node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="974" topLine="0" />
+	</File>
+	<File name="src\option.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="935" topLine="0" />
+	</File>
+	<File name="src\outputsink.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="980" topLine="0" />
+	</File>
+	<File name="src\tidypp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="935" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

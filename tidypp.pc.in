@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE_NAME@
+Description: A c++ wrapper around HTML Tidy Lib
+Version: @PACKAGE_VERSION@
+URL: @PACKAGE_URL@
+Libs: -L${libdir} -ltidypp-@TIDYPP_API_VERSION@
+Cflags: -I${includedir}/tidypp-@TIDYPP_API_VERSION@/tidypp -I${libdir}/tidypp-@TIDYPP_API_VERSION@/include

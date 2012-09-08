@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1346943028 source:e:\coding\cpp\html_parse\tidypp\src\attribute.cpp
+	"attribute.hpp"
+
+1346943040 e:\coding\cpp\html_parse\tidypp\include\attribute.hpp
+	"basic_wrapper.hpp"
+	"node.hpp"
+
+1346944131 e:\coding\cpp\html_parse\tidypp\include\basic_wrapper.hpp
+	"tidypp.hpp"
+
+1346946229 e:\coding\cpp\html_parse\tidypp\include\tidypp.hpp
+	<exception>
+	<string>
+	<tidy/tidy.h>
+
+1346945812 e:\coding\cpp\html_parse\tidypp\include\node.hpp
+	"basic_wrapper.hpp"
+
+1346943938 source:e:\coding\cpp\html_parse\tidypp\src\buffer.cpp
+	"buffer.hpp"
+
+1346943838 e:\coding\cpp\html_parse\tidypp\include\buffer.hpp
+	"basic_wrapper.hpp"
+	"mem.hpp"
+	"inputsource.hpp"
+	"outputsink.hpp"
+	<tidy/buffio.h>
+
+1346942768 e:\coding\cpp\html_parse\tidypp\src\mem.hpp
+	<tidy/tidy.h>
+
+1346942413 e:\coding\cpp\html_parse\tidypp\include\inputsource.hpp
+	"io.hpp"
+
+1346885491 e:\coding\cpp\html_parse\tidypp\include\io.hpp
+	"basic_wrapper.hpp"
+	<tidy/buffio.h>
+
+1346942585 e:\coding\cpp\html_parse\tidypp\include\outputsink.hpp
+	"io.hpp"
+	"document.hpp"
+
+1346944907 e:\coding\cpp\html_parse\tidypp\include\document.hpp
+	"basic_wrapper.hpp"
+	"io.hpp"
+	"mem.hpp"
+
+1346944966 source:e:\coding\cpp\html_parse\tidypp\src\document.cpp
+	"document.hpp"
+	"option.hpp"
+	"outputsink.hpp"
+
+1346946040 e:\coding\cpp\html_parse\tidypp\include\option.hpp
+	"basic_wrapper.hpp"
+	"document.hpp"
+
+1346942426 source:e:\coding\cpp\html_parse\tidypp\src\inputsource.cpp
+	"inputsource.hpp"
+	"buffer.hpp"
+
+1346942771 source:e:\coding\cpp\html_parse\tidypp\src\mem.cpp
+	"mem.hpp"
+
+1346945533 source:e:\coding\cpp\html_parse\tidypp\src\node.cpp
+	"node.hpp"
+	"attribute.hpp"
+
+1346946091 source:e:\coding\cpp\html_parse\tidypp\src\option.cpp
+	"option.hpp"
+
+1346942595 source:e:\coding\cpp\html_parse\tidypp\src\outputsink.cpp
+	"outputsink.hpp"
+	"buffer.hpp"
+

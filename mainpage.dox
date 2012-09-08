@@ -1,0 +1,67 @@
+/** 
+ * \mainpage Main Page
+ * Coded by Francesco "Franc[e]sco" Noferi (francesco1149@gmail.com)
+ *
+ * \section intro_sec Introduction
+ * This wrapper is meant to use html tidy in an OOP manner while preserving the 
+ * programming style / API style of html tidy lib. This is more like an object oriented c++ 
+ * bind rather than a wrapper, as it tries to keep the api as simple and as close to 
+ * the original as possible without wrapping unnecessary stuff.
+ *
+ * \section install_sec Installation
+ *
+ * \subsection unix Linux
+ * \li Get automake 1.10 if you don't have it:
+ * \verbatim
+   sudo apt-get install automake1.10
+   \endverbatim
+ *
+ * \li Get libtool if you don't have it:
+ * \verbatim
+   sudo apt-get install libtool
+   \endverbatim
+ *
+ * \li Get a copy of the source:
+ * \verbatim
+   cd ~
+   git clone https://francesco149@code.google.com/p/tidypp/
+   \endverbatim
+ *
+ * \li Compile it:
+ * \verbatim
+   cd tidypp
+   chmod u+x autogen.sh
+   ./autogen.sh
+   make
+   sudo make install
+   sudo ldconfig
+   \endverbatim
+ *
+ * \li Add /usr/local/include/tidypp-1.0/ to your include directories when you compile your program:
+ * \verbatim
+   g++ -c -o MyProgram.o -I/usr/local/include/tidypp-1.0/ MyProgram.cpp
+   \endverbatim
+ *
+ * \li Link your program to /usr/local/lib/libtidypp.la with libtool and add -ltidy to link libtidy:
+ * \verbatim
+   libtool --mode=link g++ -g -O -o MyProgram MyProgram.o /usr/local/lib/libtidypp-1.0.la -ltidy -lm
+   \endverbatim
+ *
+ * \li You should now be able to run your program:
+ * \verbatim
+   ./MyProgram
+   \endverbatim
+ *
+ * \subsection win Windows
+ * MinGW / MinGW based IDEs:
+ * \li Download the binaries in the <a href="http://code.google.com/p/tidypp/downloads/list">downloads</a> 
+ * section and extract them.
+ * \li Copy include and lib folders to your MinGW directory.
+ * \li Add -ltidypp to your compiler settings.
+ *
+ * MSVC / Others:
+ * \li Download the binaries in the <a href="http://code.google.com/p/tidypp/downloads/list">downloads</a> 
+ * section and extract them.
+ * \li Add the include folder to your include directories in the project settings.
+ * \li Add lib/libtidypp.a to the libraries to link in the linker settings of your project.
+ */
