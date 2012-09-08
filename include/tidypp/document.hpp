@@ -206,7 +206,7 @@ namespace tidypp
         /**
          * Get next Option.
          *
-         * @param[in/out] pos pointer to the iterator of the current position into the option list. Incremented automatically.
+         * @param[in,out] pos pointer to the iterator of the current position into the option list. Incremented automatically.
          * @return the next option.
          * @see option
          * @see optionlist()
@@ -366,7 +366,7 @@ namespace tidypp
          * Get next declared tag of specified type: TidyInlineTags, TidyBlockTags, TidyEmptyTags, TidyPreTags
          *
          * @param optid the option id.
-         * @param[in/out] it pointer to an iterator that will be incremented automatically.
+         * @param[in,out] it pointer to an iterator that will be incremented automatically.
          * @return a zero-terminated string.
          * @see optgetdecltaglist()
          */
@@ -391,7 +391,7 @@ namespace tidypp
         /**
          * Get next related option.
          *
-         * @param[in/out] it pointer to an iterator that will be incremented automatically.
+         * @param[in,out] it pointer to an iterator that will be incremented automatically.
          * @return the next related option.
          */
         option optgetnextdoclinks(iterator *it) throw();
@@ -425,7 +425,7 @@ namespace tidypp
         /**
          * Set error sink to given generic sink.
          *
-         * @param[out] the desired error sink.
+         * @param[out] sink the desired error sink.
          * @throw tidypp::exception an exception that describes the general cause of the error.
          */
         void seterrorsink(io::outputsink &sink) throw(const exception &);
@@ -474,7 +474,7 @@ namespace tidypp
         /**
          * Save currently parsed document to given buffer.
          *
-         * @param[out] buffer the buffer that will store the document.
+         * @param[out] buf the buffer that will store the document.
          * @throw tidypp::exception an exception that describes the general cause of the error.
          */
         void savebuffer(buffer &buf) throw(const exception &);
@@ -483,7 +483,7 @@ namespace tidypp
          * Save document to application buffer.
          *
          * @param[out] buffer the buffer that will store the document.
-         * @param[in/out] buflen pointer to the length of the buffer.
+         * @param[in,out] buflen pointer to the length of the buffer.
          * @return If buffer is not big enough, ENOMEM will be returned
          * and the necessary buffer size will be placed in *buflen.
          */

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
+	<File name="include\tidypp\document.hpp" open="1" top="1" tabpos="1">
+		<Cursor position="14881" topLine="425" />
+	</File>
+	<File name="include\tidypp\option.hpp" open="1" top="0" tabpos="2">
+		<Cursor position="2760" topLine="75" />
+	</File>
 	<File name="src\attribute.cpp" open="0" top="0" tabpos="0">
 		<Cursor position="917" topLine="4" />
 	</File>

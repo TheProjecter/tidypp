@@ -118,7 +118,7 @@ namespace tidypp
         /**
          * Get next string value of option "pick list"
          *
-         * @param[in/out] it the pick list iterator. Automatically incremented.
+         * @param[in,out] it the pick list iterator. Automatically incremented.
          * @return a zero-terminated string.
          * @see picklist()
          */
