@@ -24,7 +24,7 @@
  * \li Get a copy of the source:
  * \verbatim
    cd ~
-   git clone https://francesco149@code.google.com/p/tidypp/
+   git clone https://code.google.com/p/tidypp/
    \endverbatim
  *
  * \li Compile it:
