@@ -100,11 +100,6 @@ void dumphrefs(tidypp::node &node, std::list<std::string> *dst)
             if (hrefval) // if the link is not empty...
             {
                 std::string link(hrefval); // convert to std::string
-
-                // sometimes websites omit http: and just use double slashes, so we have to add it manually
-                if (link.find("http:") == std::string::npos)
-                    link.insert(0, "http:");
-
                 dst->push_back(link); // append link to the list
             }
         }
