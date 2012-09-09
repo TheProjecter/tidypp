@@ -1,5 +1,5 @@
 ## libtidypp:
-## a c++ wrapper around curl
+## a c++ wrapper around HTML Tidy
 
 AC_INIT([libtidypp], [1.0], [francesco1149@gmail.com], [tidypp],
         [http://code.google.com/p/tidypp/])
@@ -12,7 +12,6 @@ AC_CONFIG_HEADERS([config.h tidyppconfig.h])
 AC_PROG_CXX
 LT_INIT([disable-static])
 
-PKG_CHECK_MODULES([DEPS], [libtidy])
 AC_SUBST([TIDYPP_SO_VERSION], [0:0:0])
 AC_SUBST([TIDYPP_API_VERSION], [1.0])
 

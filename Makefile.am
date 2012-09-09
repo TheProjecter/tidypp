@@ -6,8 +6,8 @@ ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS} -I m4
 
 lib_LTLIBRARIES = libtidypp-@TIDYPP_API_VERSION@.la
 
-libtidypp_@CURLPLUSPLUS_API_VERSION@_la_CPPFLAGS = $(DEPS_CFLAGS)
-libtidypp_@CURLPLUSPLUS_API_VERSION@_la_LIBADD = -ltidy $(DEPS_LIBS)
+libtidypp_@TIDYPP_API_VERSION@_la_CPPFLAGS = $(DEPS_CFLAGS)
+libtidypp_@TIDYPP_API_VERSION@_la_LIBADD = -ltidy $(DEPS_LIBS)
 
 libtidypp_@TIDYPP_API_VERSION@_la_SOURCES = src/attribute.cpp src/buffer.cpp \
 	src/document.cpp src/inputsource.cpp src/mem.cpp src/node.cpp src/option.cpp \
