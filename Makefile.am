@@ -17,7 +17,7 @@ libtidypp_@TIDYPP_API_VERSION@_la_SOURCES = src/attribute.cpp src/buffer.cpp \
 	include/tidypp/io.hpp include/tidypp/mem.hpp include/tidypp/node.hpp \
 	include/tidypp/option.hpp include/tidypp/outputsink.hpp include/tidypp/tidypp.hpp
 
-libtidypp_@TIDYPP_API_VERSION@_la_LDFLAGS = -version-info $(tidypp_SO_VERSION)
+libtidypp_@TIDYPP_API_VERSION@_la_LDFLAGS = -version-info $(TIDYPP_SO_VERSION)
 
 tidypp_includedir=$(includedir)/tidypp-@TIDYPP_API_VERSION@/tidypp
 tidypp_include_HEADERS = include/tidypp/attribute.hpp \
