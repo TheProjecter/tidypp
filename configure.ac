@@ -12,7 +12,7 @@ AC_CONFIG_HEADERS([config.h tidyppconfig.h])
 AC_PROG_CXX
 LT_INIT([disable-static])
 
-AC_SUBST([TIDYPP_SO_VERSION], [0:0:0])
+AC_SUBST([TIDYPP_SO_VERSION], [0:0:1])
 AC_SUBST([TIDYPP_API_VERSION], [1.0])
 
 AC_CONFIG_FILES([Makefile

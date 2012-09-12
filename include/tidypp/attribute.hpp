@@ -28,7 +28,7 @@ namespace tidypp
     /**
      * TidyAttr wrapper.
      */
-    class attribute : basic_wrapper<TidyAttr>
+    class attribute : public basic_wrapper<TidyAttr>
     {
         friend attribute node::attrfirst() throw();
         friend attribute node::attrgetbyid(attributeid id) throw();
