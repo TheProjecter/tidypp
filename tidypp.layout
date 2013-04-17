@@ -4,6 +4,9 @@
 	<File name="include\tidypp\attribute.hpp" open="0" top="0" tabpos="0">
 		<Cursor position="1070" topLine="0" />
 	</File>
+	<File name="include\tidypp\basic_wrapper.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="45" />
+	</File>
 	<File name="include\tidypp\buffer.hpp" open="0" top="0" tabpos="0">
 		<Cursor position="0" topLine="3" />
 	</File>
