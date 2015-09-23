@@ -1,0 +1,1 @@
+This wrapper is meant to use curl in an OOP manner while preserving the programming style / API style of tidylib. This is more like an object oriented c++ bind rather than a wrapper, as it tries to keep the api as simple and as close to the original as possible without wrapping unnecessary stuff.

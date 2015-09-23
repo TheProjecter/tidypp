@@ -1,0 +1,1 @@
+You can get the full documentation in the [downloads](http://code.google.com/p/tidypp/downloads/list) page or you can view it online [here](http://www.animemanga-ita.net/francesco/tidypp_doc/).
